@@ -1,0 +1,132 @@
+Most Common Words Across All Movies:
+life: 774
+young: 728
+new: 699
+family: 586
+world: 503
+love: 497
+man: 496
+two: 495
+friends: 461
+woman: 459
+
+
+Top words in International Movies genre:
+young: 320
+man: 284
+woman: 248
+life: 242
+love: 225
+family: 215
+two: 180
+new: 164
+must: 139
+one: 125
+
+Top words in Dramas genre:
+young: 409
+life: 335
+family: 287
+love: 278
+man: 268
+woman: 258
+new: 255
+two: 215
+finds: 157
+father: 152
+
+Top words in Comedies genre:
+new: 227
+life: 209
+friends: 177
+family: 173
+two: 171
+man: 164
+young: 159
+love: 150
+woman: 135
+school: 123
+
+Top words in International TV Shows genre:
+life: 146
+love: 129
+young: 122
+world: 107
+family: 100
+series: 98
+new: 96
+two: 88
+woman: 84
+school: 71
+
+Top words in Documentaries genre:
+documentary: 300
+life: 91
+world: 67
+film: 56
+follows: 50
+interviews: 40
+look: 40
+history: 40
+footage: 38
+family: 38
+
+Top words in Action & Adventure genre:
+young: 92
+must: 78
+man: 75
+two: 74
+world: 63
+new: 62
+life: 59
+mission: 59
+take: 54
+group: 52
+
+Top words in TV Dramas genre:
+life: 95
+family: 83
+love: 72
+new: 62
+two: 60
+young: 57
+woman: 51
+series: 50
+school: 49
+world: 44
+
+Top words in Independent Movies genre:
+young: 112
+new: 81
+life: 79
+man: 74
+two: 59
+family: 58
+woman: 57
+love: 43
+home: 43
+father: 43
+
+Top words in Children & Family Movies genre:
+save: 76
+new: 75
+friends: 65
+must: 63
+young: 61
+family: 49
+help: 45
+get: 43
+world: 41
+christmas: 41
+
+Top words in Romantic Movies genre:
+love: 134
+young: 88
+woman: 79
+life: 62
+man: 61
+new: 52
+romance: 44
+two: 43
+falls: 41
+relationship: 41

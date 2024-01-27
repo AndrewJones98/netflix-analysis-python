@@ -1,6 +1,5 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import plotly.express as px
 
 df = pd.read_csv('netflix_titles.csv')
 
@@ -8,15 +7,11 @@ df['date_added'] = pd.to_datetime(df['date_added'], errors='coerce')
 df['year_added'] = df['date_added'].dt.year
 
 unparsed_entries = df[df['date_added'].isna()]
-print("Unparsed Entries:\n", unparsed_entries)
 
-content_added_per_year = df.groupby('year_added').size()
+content_added_per_year = df.groupby('year_added').size().reset_index(name='count')
 
-sns.set(style="whitegrid")
+fig = px.line(content_added_per_year, x='year_added', y='count', 
+              title='Content Added Over Time',
+              labels={'year_added': 'Year Added', 'count': 'Number of Contents Added'})
 
-plt.figure(figsize=(12,6))
-sns.lineplot(data=content_added_per_year)
-plt.title('Content Added Over Time')
-plt.xlabel('Year Added')
-plt.ylabel('Number of Contents Added')
-plt.show()
+fig.show()
